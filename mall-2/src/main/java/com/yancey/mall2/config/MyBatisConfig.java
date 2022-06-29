@@ -13,6 +13,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @SpringBootApplication
 @Configuration
-@MapperScan("com.yancey.mall2.mbg.mapper")
+@MapperScan({"com.yancey.mall2.mbg.mapper", "com.yancey.mall2.dao"})
 public class MyBatisConfig {
 }

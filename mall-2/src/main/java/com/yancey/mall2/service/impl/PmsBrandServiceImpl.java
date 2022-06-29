@@ -20,7 +20,7 @@ import java.util.List;
 
 @Service
 public class PmsBrandServiceImpl implements PmsBrandService {
-    @Autowired
+     @Autowired
     private PmsBrandMapper pmsBrandMapper;
     @Override
     public List<PmsBrand> listAllBrand() {
